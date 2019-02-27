@@ -1,6 +1,8 @@
 # Welcome to the Whiteboard Interview
 
-This  will serve as a live coding session during which you'll receive a limited backend service in addition to a very limited client side application. Your requirements will be to complete tasks within the provided system. 
+This  will serve as a live coding session during which you'll receive a limited backend service in addition to a very limited client side application. Your requirements will be to complete tasks within the provided system.
+
+This interview is as much about reading and comprehending documentation as it is about writing code. 
 
 ## Project Structure
 * client
