@@ -34,9 +34,11 @@ import { date } from 'quasar'
 export default {
   name: 'PageIndex',
   created () {
-    this.$store.dispatch('imdb/FIND_USERS', {
-      limit: 50
-    })
+    if (!this.users.length) {
+      this.$store.dispatch('imdb/FIND_USERS', {
+        limit: 50
+      })
+    }
   },
   filters: {
     occupation: function (value) {
