@@ -3,5 +3,10 @@ export default {
     list: [],
     loading: false,
     error: null
+  },
+  movies: {
+    list: [],
+    loading: false,
+    error: null
   }
 }

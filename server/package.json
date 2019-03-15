@@ -31,8 +31,5 @@
     "url": "git://github.com/jpgilchrist/server.git"
   },
   "author": "jpgilchrist",
-  "license": "",
-  "engines": {
-    "node": "^9.11"
-  }
+  "license": ""
 }

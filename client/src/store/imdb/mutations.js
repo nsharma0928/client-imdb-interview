@@ -22,3 +22,27 @@ export function USERS_FIND_FAILURE (state, payload) {
     error: payload
   }
 }
+
+export function MOVIES_FIND_REQUEST (state, payload) {
+  state.movies = {
+    ...state.movies,
+    loading: true,
+    error: null
+  }
+}
+
+export function MOVIES_FIND_SUCCESS (state, payload) {
+  state.movies = {
+    ...state.movies,
+    loading: false,
+    list: [...state.movies.list, ...payload]
+  }
+}
+
+export function MOVIES_FIND_FAILURE (state, payload) {
+  state.movies = {
+    ...state.movies,
+    loading: false,
+    error: payload
+  }
+}
